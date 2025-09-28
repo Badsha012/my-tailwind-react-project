@@ -10,7 +10,7 @@ const pricingData=use(pricingpromise );
     
     return (
         <div>
-            <h2 className='text-5xl'>Get Our MemberShip</h2>
+            <h2 className='md:text-5xl text-2xl text-center py-7'>Get Our MemberShip</h2>
 
             <div className='grid gap-8 md:grid-cols-2 grid-cols-1'>
                 {
@@ -18,6 +18,7 @@ const pricingData=use(pricingpromise );
                      pricing ={pricing}></PricingCard>) 
                 }
             </div>
+           
             
         </div>
     );
