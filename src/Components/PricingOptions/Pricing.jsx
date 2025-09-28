@@ -3,8 +3,8 @@ import PricingCard from '../PricingCard/PricingCard';
 
 const Pricing = ({pricingpromise}) => {
 
-const pricingData=use(pricingpromise);
-console.log(pricingData);
+const pricingData=use(pricingpromise );
+//console.log(pricingData);
 
 
     
@@ -12,9 +12,10 @@ console.log(pricingData);
         <div>
             <h2 className='text-5xl'>Get Our MemberShip</h2>
 
-            <div>
+            <div className='grid gap-8 md:grid-cols-2 grid-cols-1'>
                 {
-                   pricingpromise.map(pricing=><PricingCard key={pricing.id} pricing ={pricing}></PricingCard>) 
+                   pricingData.map(pricing=><PricingCard key={pricing.id}
+                     pricing ={pricing}></PricingCard>) 
                 }
             </div>
             

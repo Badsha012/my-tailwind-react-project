@@ -3,28 +3,32 @@
     "id": 1,
     "planName": "Basic",
     "duration": "1 Month",
-    "averagePrice": 2000,
-    "features": ["Gym access", "Locker access"]
+    "averagePrice": "$19.99/Month",
+    "features": ["Gym access", "Locker access"],
+    "description": "Perfect for beginners who want basic gym access for a month."
   },
   {
     "id": 2,
     "planName": "Standard",
     "duration": "3 Months",
-    "averagePrice": 5500,
-    "features": ["Gym access", "Locker access", "Group classes"]
+    "averagePrice": "$55.54/Month",
+    "features": ["Gym access", "Locker access", "Group classes"],
+    "description": "Ideal for regular gym-goers who want group classes and basic facilities."
   },
   {
     "id": 3,
     "planName": "Premium",
     "duration": "6 Months",
-    "averagePrice": 10000,
-    "features": ["Gym access", "Locker access", "Group classes", "1 PT session per month"]
+    "averagePrice": "$100.33/Month",
+    "features": ["Gym access", "Locker access", "Group classes", "1 PT session per month"],
+    "description": "For fitness enthusiasts who want personal training sessions along with full facilities."
   },
   {
     "id": 4,
     "planName": "Annual",
     "duration": "12 Months",
-    "averagePrice": 18000,
-    "features": ["Full access", "Unlimited group classes", "PT sessions", "Nutrition plan"]
+    "averagePrice": "$180.12/Month",
+    "features": ["Full access", "Unlimited group classes", "PT sessions", "Nutrition plan"],
+    "description": "Best value for long-term members, includes unlimited classes, personal training, and nutrition guidance."
   }
 ]
