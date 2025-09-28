@@ -12,11 +12,11 @@ const navData = [
 
 const Navbar = () => {
   const [open,setOpen]=useState(false)
-  const links= navData.map(link =>  <li className=' hover:bg-blend-hard-light px-4  md:mr-10'><a href={link.path}>{link.name}</a></li>)
+  const links= navData.map(link =>  <li className=' hover:bg-blend-hard-light hover:bg-amber-400 rounded-lg px-4  md:mr-10'><a href={link.path}>{link.name}</a></li>)
 
     return (
      
-        <nav className='flex justify-between'>
+        <nav className='flex justify-between mx-10 mt-4'>
            <span className='flex' onClick={()=>setOpen(!open)}>
             {
                 open ? <X className='md:hidden'></X> :   <Menu className='md:hidden'></Menu>

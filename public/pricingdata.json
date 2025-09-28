@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "planName": "Basic",
+    "duration": "1 Month",
+    "averagePrice": 2000,
+    "features": ["Gym access", "Locker access"]
+  },
+  {
+    "id": 2,
+    "planName": "Standard",
+    "duration": "3 Months",
+    "averagePrice": 5500,
+    "features": ["Gym access", "Locker access", "Group classes"]
+  },
+  {
+    "id": 3,
+    "planName": "Premium",
+    "duration": "6 Months",
+    "averagePrice": 10000,
+    "features": ["Gym access", "Locker access", "Group classes", "1 PT session per month"]
+  },
+  {
+    "id": 4,
+    "planName": "Annual",
+    "duration": "12 Months",
+    "averagePrice": 18000,
+    "features": ["Full access", "Unlimited group classes", "PT sessions", "Nutrition plan"]
+  }
+]
