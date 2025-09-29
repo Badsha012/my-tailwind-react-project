@@ -7,7 +7,6 @@ const PricingCard = ({pricing}) => {
 
     return (
         <div className='border bg-amber-600 rounded-2xl p-4'>
-
       <div>
                 {/* crd header */}
             <h1 className='text-7xl'>{planName}</h1>
