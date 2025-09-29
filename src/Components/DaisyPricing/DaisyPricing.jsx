@@ -1,13 +1,15 @@
 import React from 'react';
 
-const DaisyPricing = () => {
+const DaisyPricing = ({pricing}) => {
+  const {planName,averagePrice}=pricing
+
     return (
        <div className="card w-96 bg-base-100 shadow-sm">
   <div className="card-body">
     <span className="badge badge-xs badge-warning">Most Popular</span>
     <div className="flex justify-between">
-      <h2 className="text-3xl font-bold">Premium</h2>
-      <span className="text-xl">$29/mo</span>
+      <h2 className="text-3xl font-bold">{planName}</h2>
+      <span className="text-xl">{averagePrice}</span>
     </div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
       <li>
