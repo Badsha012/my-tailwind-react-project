@@ -1,4 +1,5 @@
 import React, { use } from 'react';
+import { Bar, BarChart, XAxis, YAxis } from 'recharts';
 
 const MarksChar = ({marksPromise}) => {
 
@@ -23,6 +24,14 @@ const MarksChar = ({marksPromise}) => {
     console.log(marksChartData)
     return (
         <div>
+            <BarChart width={500} height={500} data={marksChartData}>
+                <XAxis dataKey="name"></XAxis>
+                <YAxis></YAxis>
+                <Bar dataKey="avg" fill='yellow'></Bar>
+                <Bar dataKey="chemistry" fill='blue'></Bar>
+                <Bar dataKey="physics" fill='green'></Bar>
+
+            </BarChart>
             
         </div>
     );
