@@ -6,7 +6,7 @@ const PricingCard = ({pricing}) => {
 
 
     return (
-        <div className='border bg-amber-600 rounded-2xl p-4'>
+        <div className=' flex flex-col border bg-amber-600 rounded-2xl p-4'>
       <div>
                 {/* crd header */}
             <h1 className='text-7xl'>{planName}</h1>
@@ -14,7 +14,7 @@ const PricingCard = ({pricing}) => {
       </div>
 
       {/* card body */}
-      <div className='bg-amber-400 rounded-2xl p-4 mt-10'>
+      <div className='bg-amber-400 rounded-2xl p-4 mt-10 flex-1'>
         <p>{description}</p>
 
         {
@@ -22,7 +22,7 @@ const PricingCard = ({pricing}) => {
       }
       </div>
 
-          <button className="btn btn-wide">Wide</button>   
+          <button className="btn bg-green-500 w-full text-2xl rounded-2xl">Subscribe</button>   
         </div>
         
     );
