@@ -1,5 +1,5 @@
 import React from 'react';
-import { Line, LineChart } from 'recharts';
+import { Line, LineChart, XAxis, YAxis } from 'recharts';
 const resultData=[
   { "id": 1, "name": "Student 1", "physics": 85, "chemistry": 78 },
   { "id": 2, "name": "Student 2", "physics": 72, "chemistry": 80 },
@@ -17,7 +17,11 @@ const resultData=[
 const ResultChart = () => {
     return (
         <div>
-            <LineChart width={500} height={500} data={resultData}>
+
+           
+            <LineChart width={900} height={500} data={resultData}>
+                 <XAxis dataKey='name'></XAxis>
+            <YAxis dataKey="physics"></YAxis>
           <Line dataKey="physics"></Line>
           <Line dataKey="chemistry" stroke='red'></Line>
             </LineChart>

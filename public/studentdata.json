@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "name": "Student 1",
+    "details": {
+      "age": 16,
+      "class": "10th"
+    },
+    "marks": {
+      "physics": 85,
+      "chemistry": 78,
+      "math": 92
+    }
+  },
+  {
+    "id": 2,
+    "name": "Student 2",
+    "details": {
+      "age": 15,
+      "class": "10th"
+    },
+    "marks": {
+      "physics": 72,
+      "chemistry": 80,
+      "math": 68
+    }
+  },
+  {
+    "id": 3,
+    "name": "Student 3",
+    "details": {
+      "age": 16,
+      "class": "10th"
+    },
+    "marks": {
+      "physics": 90,
+      "chemistry": 88,
+      "math": 95
+    }
+  },
+  {
+    "id": 4,
+    "name": "Student 4",
+    "details": {
+      "age": 15,
+      "class": "10th"
+    },
+    "marks": {
+      "physics": 68,
+      "chemistry": 75,
+      "math": 70
+    }
+  },
+  {
+    "id": 5,
+    "name": "Student 5",
+    "details": {
+      "age": 16,
+      "class": "10th"
+    },
+    "marks": {
+      "physics": 77,
+      "chemistry": 82,
+      "math": 80
+    }
+  },
+  {
+    "id": 6,
+    "name": "Student 6",
+    "details": {
+      "age": 16,
+      "class": "10th"
+    },
+    "marks": {
+      "physics": 95,
+      "chemistry": 91,
+      "math": 98
+    }
+  },
+  {
+    "id": 7,
+    "name": "Student 7",
+    "details": {
+      "age": 15,
+      "class": "10th"
+    },
+    "marks": {
+      "physics": 81,
+      "chemistry": 79,
+      "math": 85
+    }
+  },
+  {
+    "id": 8,
+    "name": "Student 8",
+    "details": {
+      "age": 16,
+      "class": "10th"
+    },
+    "marks": {
+      "physics": 74,
+      "chemistry": 70,
+      "math": 72
+    }
+  },
+  {
+    "id": 9,
+    "name": "Student 9",
+    "details": {
+      "age": 15,
+      "class": "10th"
+    },
+    "marks": {
+      "physics": 88,
+      "chemistry": 85,
+      "math": 90
+    }
+  },
+  {
+    "id": 10,
+    "name": "Student 10",
+    "details": {
+      "age": 16,
+      "class": "10th"
+    },
+    "marks": {
+      "physics": 79,
+      "chemistry": 76,
+      "math": 80
+    }
+  }
+]
